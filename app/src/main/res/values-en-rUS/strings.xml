@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DeviceManager</string>
+    <string name="btn_instotage">instotage</string>
+    <string name="btn_outstorage">outstorage</string>
+    <string name="btn_movestorage">movestorage</string>
+    <string name="checkstorage">盘点</string>
+</resources>

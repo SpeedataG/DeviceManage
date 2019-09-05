@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.devicemanage.MainActivity">
+
+    <EditText
+        android:id="@+id/etv_cmd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="设置读头ID(8888)或衰减值(0-31)" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/togglebtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textOff="打开"
+            android:textOn="关闭" />
+
+        <Button
+            android:id="@+id/btn_setID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="读头ID" />
+
+        <Button
+            android:id="@+id/btn_setshuaijian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="衰减值" />
+
+        <Button
+            android:id="@+id/btn_readinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:text="阅读器信息" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_instorage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/btn_instotage"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_outstorage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/btn_outstorage"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_movestorage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/btn_movestorage"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </ScrollView>
+
+
+</LinearLayout>

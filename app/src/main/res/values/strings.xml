@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">资产管理</string>
+    <string name="btn_instotage">入库</string>
+    <string name="btn_outstorage">出库</string>
+    <string name="btn_movestorage">移库</string>
+    <string name="checkstorage">盘点</string>
+</resources>
